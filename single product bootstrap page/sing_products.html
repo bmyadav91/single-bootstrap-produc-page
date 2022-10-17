@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="single_product.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <title>Single Product</title>
+    </head>
+
+<body>
+    <!--nav-->
+    <nav class="navbar navbar-expand-lg navbar-info bg-info">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Single Product</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Account</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search..</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--nav-->
+
+    <!--content-->
+    <div class="container">
+        <div class="row mt-4 idforshadowborder">
+            <div class="col-lg-5 col-sm-12 col-md-6 idforshadowborder">
+                <img src="product-img/bottle.png" class="img-fluid img-responsive w-100" alt="" id="productprimaryimg" />
+                <div class="small-img-groupp pt-1">
+                    <div class="per-img-small">
+                        <img src="product-img/earphone1.jpg" class="img-fluid img-responsive" alt="" />
+                    </div>
+                    <div class="per-img-small">
+                        <img src="product-img/bajaj_dx_6_iron.jpg" class="img-fluid img-responsive" alt="" />
+                    </div>
+                    <div class="per-img-small removemaxwidth240">
+                        <img src="product-img/biryani1.jpg" class="img-fluid img-responsive" alt="" />
+                    </div>
+                </div>
+                <!--buy and cart button-->
+                <div class="buyandcartbtn pt-3 pb-3 mt-3 mb-2">
+                    <a href="#" class=""><span class="buybtn"><i class="bi bi-lightning-fill"></i> Buy Now</span></a>
+                    <a href="#" class=""><span class="cartbtn"><i class="bi bi-cart-plus-fill"></i> Add to Cart</span></a>
+                </div>
+                <!--buy and cart button-->
+
+            </div>
+            <!--closing of col-5-->
+            <div class="col-lg-7 col-sm-12 col-md-6 mt-2">
+                <h2 class="product-title">Branded Water bottle 500 ml</h2>
+                <strong id="brandsnpr">whatBM</strong>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="review-no px-2">(<a href="#reviewsall">41 reviews</a>)</span>
+                    </div>
+                </div>
+                <div class="priceandoffer">
+                    <span class="price">₹89</span>
+                    <span class="strikeprice"><s>₹129</s></span>
+                    <span class="discount text-success"> (33% OFF)</span>
+                </div>
+                <div class="selectsize mb-3">
+                    <p class="size">Product Size <i class="bi bi-aspect-ratio"></i></p>
+                    <div class="xlmxll"><span>Medium </span></div>
+                </div>
+                <!--features and facility-->
+                <div class="featureandfaclity">
+                    <span class="fandf">Features & Facility <a href="#"><i class="bi bi-info-circle"></i></a></span>
+                </div>
+
+                <!--return policy cash on deliver fast-->
+                <div class="rtrnpoclicyfastdel">
+                    <div class="smalrtrn">
+                        <span><i class="bi bi-arrow-90deg-down"></i></span>
+                        <span>No Return policy</span>
+                    </div>
+                    <div class="smalrtrn">
+                        <span><i class="bi bi-truck"></i></span>
+                        <span>Same Day Delivery</span>
+                    </div>
+                </div>
+                <!--pffert list-->
+                <div class="offerlist">
+                    <ul>
+                        <li><i class="bi bi-tag-fill"></i> <strong>Offer</strong> Faster Delivery Compare to Other Websites</li>
+                        <li><i class="bi bi-tag-fill"></i> <strong>Offer</strong> 10% Cheaper Than Other Website</li>
+                        <li><i class="bi bi-tag-fill"></i> <strong>Offer</strong> Complete 10 Order and Get ₹100 Cashback</li>
+                        <li><i class="bi bi-tag-fill"></i> <strong>Facility</strong> The delivery person will deliver your parcel to your Doorstep</li>
+                    </ul>
+                </div>
+                <!--short desc-->
+                <div class="shortproductdetails  pt-3">
+                    <h3 class="shortdesc">Short Product Details <i class="bi bi-lightning"></i></h3>
+
+                    <p>Pellentesque lacinia est arcu, non finibus massa lacinia a. Nullam sed tortor suscipit elit
+                        Best Water Bottle For Drink Water Ut vulputate nunc ac nisi dictum.</p>
+
+                </div>
+            </div>
+        </div>
+        <!--new rows for below content-->
+
+        <!--long description -->
+        <div class="row mt-3 idforshadowborder">
+            <div class="col-12 col-md-12 col-sm-12">
+                <div class="longdescheading">
+                    <h3 class="h3fotlonghead">Long Description</h3>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                </div>
+            </div>
+        </div>
+        <!--reviews-->
+        <div class="row idforshadowborder mt-2">
+            <div class="col-12 col-md-12-col-sm-12">
+                <h4 class="reviewsheading" id="reviewsall">Reviews</h4>
+                <div>
+                    <p>No Reviews Yet! Be First</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+            </div>
+        </div>
+        <!--similarproducts heading-->
+        <div class="row mt-3">
+            <div class="col-12">
+                <h4>Similar Products</h4>
+            </div>
+        </div>
+        <!--single product-->
+        <div class="row mt-2 mb-2 singleproductclassfordesing">
+            <div class="col-lg-3 col-md-6 col-sm-6 perproduct">
+                <div class="productimg">
+                    <a href="#"><img src="product-img/bottle.png" class="img-responsive img-fluid" alt="" /></a>
+                </div>
+                <div class="brandnameee text-center">
+                    <a href="#"><span class="brandnameeeee">WhatBM</span></a>
+                </div>
+                <div class="reviewandrating text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="bi bi-star"></i>
+                    <span class="countofreviews">(<a href="#">41 Reviews</a>)</span>
+                </div>
+                <div class="producttitleee text-center">
+                    <a href="#"><h4 class="producttitlee">New Branded 500 ML Water Bottle By Pakaha.in Brand</h4></a>
+                </div>
+                <div class="priceandstrike text-center">
+                    <span class="regularprice text-danger"><s>₹149</s></span>
+                    <span class="salepricewithoffer">₹99</span>
+                    <span class="percantegeoff text-success">(25% OFF)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 perproduct">
+                <div class="productimg">
+                    <a href="#"><img src="product-img/bottle.png" class="img-responsive img-fluid" alt="" /></a>
+                </div>
+                <div class="brandnameee text-center">
+                    <a href="#"><span class="brandnameeeee">WhatBM</span></a>
+                </div>
+                <div class="reviewandrating text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="bi bi-star"></i>
+                    <span class="countofreviews">(<a href="#">41 Reviews</a>)</span>
+                </div>
+                <div class="producttitleee text-center">
+                    <a href="#"><h4 class="producttitlee">New Branded 500 ML Water Bottle By Pakaha.in Brand</h4></a>
+                </div>
+                <div class="priceandstrike text-center">
+                    <span class="regularprice text-danger"><s>₹149</s></span>
+                    <span class="salepricewithoffer">₹99</span>
+                    <span class="percantegeoff text-success">(25% OFF)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 perproduct">
+                <div class="productimg">
+                    <a href="#"><img src="product-img/bottle.png" class="img-responsive img-fluid" alt="" /></a>
+                </div>
+                <div class="brandnameee text-center">
+                    <a href="#"><span class="brandnameeeee">WhatBM</span></a>
+                </div>
+                <div class="reviewandrating text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="bi bi-star"></i>
+                    <span class="countofreviews">(<a href="#">41 Reviews</a>)</span>
+                </div>
+                <div class="producttitleee text-center">
+                    <a href="#"><h4 class="producttitlee">New Branded 500 ML Water Bottle By Pakaha.in Brand</h4></a>
+                </div>
+                <div class="priceandstrike text-center">
+                    <span class="regularprice text-danger"><s>₹149</s></span>
+                    <span class="salepricewithoffer">₹99</span>
+                    <span class="percantegeoff text-success">(25% OFF)</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 perproduct">
+                <div class="productimg">
+                    <a href="#"><img src="product-img/bottle.png" class="img-responsive img-fluid" alt="" /></a>
+                </div>
+                <div class="brandnameee text-center">
+                    <a href="#"><span class="brandnameeeee">WhatBM</span></a>
+                </div>
+                <div class="reviewandrating text-center">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="bi bi-star"></i>
+                    <span class="countofreviews">(<a href="#">41 Reviews</a>)</span>
+                </div>
+                <div class="producttitleee text-center">
+                    <a href="#"><h4 class="producttitlee">New Branded 500 ML Water Bottle By Pakaha.in Brand</h4></a>
+                </div>
+                <div class="priceandstrike text-center">
+                    <span class="regularprice text-danger"><s>₹149</s></span>
+                    <span class="salepricewithoffer">₹99</span>
+                    <span class="percantegeoff text-success">(25% OFF)</span>
+                </div>
+            </div>
+        </div><!--closed single product rows-->
+    </div>
+</body>
+</html>
